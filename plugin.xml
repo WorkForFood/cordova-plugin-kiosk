@@ -60,8 +60,21 @@
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
-                <uses-permission android:name="android.permission.REORDER_TASKS"/>
-                <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+            <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+            <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+            <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+            <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.WAKE_LOCK" />
+            <uses-permission android:name="android.hardware.location" />
+            <uses-permission android:name="android.permission.REORDER_TASKS"/>
+            <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+            <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
         </config-file>
 
         <source-file src="android/KioskActivity.java" target-dir="src/jk/cordova/plugin/kiosk" />

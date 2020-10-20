@@ -1,17 +1,39 @@
 {
-  "name": "cordova-plugin-kiosk",
-  "version": "1.0.0",
-  "description": "Cordova plugin to create Cordova application with kiosk mode",
+  "_from": "git+https://github.com/WorkForFood/cordova-plugin-kiosk.git",
+  "_id": "cordova-plugin-kiosk@1.0.0",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-kiosk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/WorkForFood/cordova-plugin-kiosk.git",
+    "rawSpec": "https://github.com/WorkForFood/cordova-plugin-kiosk.git",
+    "saveSpec": "git+https://github.com/WorkForFood/cordova-plugin-kiosk.git",
+    "fetchSpec": "https://github.com/WorkForFood/cordova-plugin-kiosk.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/WorkForFood/cordova-plugin-kiosk.git#05fb38e3f5a98f05dd3328c9b6528a76ea11e1b3",
+  "_spec": "https://github.com/WorkForFood/cordova-plugin-kiosk.git",
+  "author": {
+    "name": "Jan Kalina"
+  },
+  "bugs": {
+    "url": "https://github.com/honza889/cordova-plugin-kiosk/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-kiosk",
     "platforms": [
       "android"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/honza889/cordova-plugin-kiosk.git"
-  },
+  "deprecated": false,
+  "description": "Cordova plugin to create Cordova application with kiosk mode",
+  "homepage": "https://github.com/WorkForFood/cordova-plugin-kiosk",
   "keywords": [
     "cordova",
     "android",
@@ -19,10 +41,11 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "Jan Kalina",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/honza889/cordova-plugin-kiosk/issues"
+  "name": "cordova-plugin-kiosk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorkForFood/cordova-plugin-kiosk.git"
   },
-  "homepage": "https://github.com/honza889/cordova-plugin-kiosk"
+  "version": "1.0.0"
 }

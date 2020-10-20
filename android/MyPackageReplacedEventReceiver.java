@@ -12,6 +12,8 @@ public class MyPackageReplacedEventReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         System.out.println("Kiosk application restarting after upgrade");
         Intent newIntent = new Intent(context, KioskActivity.class);
+        newIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        newIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         newIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(newIntent);
     }
